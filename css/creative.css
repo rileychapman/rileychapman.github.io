@@ -107,8 +107,8 @@ aside {
 }
 @media (min-width: 768px) {
   .navbar-default {
-    background-color: transparent;
-    border-color: rgba(255, 255, 255, 0.3);
+    background-color: #4a423f;
+    border-color: rgba(255, 255, 255, 0);
   }
   .navbar-default .navbar-header .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
@@ -155,7 +155,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/header.jpg');
+  background-image: url('../img/Chapman-Riley-REVO.jpg');
   text-align: center;
   color: white;
 }
@@ -165,6 +165,13 @@ header .header-content {
   padding: 100px 15px 100px;
   width: 100%;
 }
+
+header .header-readability {
+  background-color: rgba(74,66,63,0.8);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 header .header-content .header-content-inner h1 {
   font-weight: 700;
   text-transform: uppercase;
